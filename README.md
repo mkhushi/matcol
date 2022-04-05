@@ -1,2 +1,7 @@
-# matcol
-MatCol: a tool to measure fluorescence signal colocalisation in biological systems https://www.nature.com/articles/s41598-017-08786-1
+# MatCol
+MatCol: a tool to measure fluorescence signal colocalisation in biological systems 
+
+Abstract
+Protein colocalisation is often studied using pixel intensity-based coefficients such as Pearson, Manders, Li or Costes. However, these methods cannot be used to study object-based colocalisations in biological systems. Therefore, a novel method is required to automatically identify regions of fluorescent signal in two channels, identify the co-located parts of these regions, and calculate the statistical significance of the colocalisation. We have developed MatCol to address these needs. MatCol can be used to visualise protein and/or DNA colocalisations and fine tune user-defined parameters for the colocalisation analysis, including the application of median or Wiener filtering to improve the signal to noise ratio. Command-line execution allows batch processing of multiple images. Users can also calculate the statistical significance of the observed object colocalisations compared to overlap by random chance using Student’s t-test. We validated MatCol in a biological setting. The colocalisations of telomeric DNA and TRF2 protein or TRF2 and PML proteins in >350 nuclei derived from three different cell lines revealed a highly significant correlation between manual and MatCol identification of colocalisations (linear regression R2 = 0.81, P < 0.0001). MatCol has the ability to replace manual colocalisation counting, and the potential to be applied to a wide range of biological areas.
+
+Paper published in the Scientific Reports https://www.nature.com/articles/s41598-017-08786-1
